@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Sandwich {
 
-	protected ArrayList<Topping> toppings;
+	private ArrayList<Topping> toppings;
 
 	public Sandwich() {
 		toppings = new ArrayList<Topping>();
