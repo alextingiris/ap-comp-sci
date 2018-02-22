@@ -8,10 +8,10 @@ public class Cubano extends Sandwich {
 
 	public Cubano() {
 		super();
-		toppings.add(ham);
-		toppings.add(mustard);
-		toppings.add(pickles);
-		toppings.add(roastPork);
-		toppings.add(swissCheese);
+		super.Sandwich(ham);
+		super.Sandwich(mustard);
+		super.Sandwich(pickles);
+		super.Sandwich(roastPork);
+		super.Sandwich(swissCheese);
 	}
 }
